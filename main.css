@@ -1,0 +1,170 @@
+body {
+  background: linear-gradient(
+    180.2deg,
+    rgb(30, 33, 48) 6.8%,
+    rgb(74, 98, 110) 131%
+  );
+  font-family: "Sawarabi Gothic", sans-serif;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #0e0b17;
+  height: 70px;
+}
+#navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 4px 4px;
+  margin: 22px 22px;
+  text-decoration: none;
+}
+.button-nav {
+  margin: 22px 22px;
+  background: #a339cc;
+  border-radius: 10px;
+  border: 1px solid #e9dfe1;
+  transition: all 150ms ease-in-out;
+  color: beige;
+}
+
+.button-nav:hover {
+  border: 1px solid #a339cc;
+  background: #4817f7;
+  color: beige;
+}
+
+.nav-header:hover {
+  background: transparent;
+  background-color: #4817f7;
+  border-radius: 10px;
+  transition: all 150ms ease-in-out;
+}
+.home-nav:hover {
+  background: transparent;
+  background-color: #a339cc;
+  border-radius: 10px;
+  transition: all 150ms ease-in-out;
+}
+
+.footer-color {
+  background: #0e0b17;
+}
+.git-link {
+  color: white;
+  text-decoration: none;
+}
+.git-link:hover {
+  color: #a339cc;
+  text-decoration: underline;
+}
+
+.header-cont {
+  color: #f2f2f2;
+  text-decoration: underline;
+  font-weight: 800;
+  text-align: center;
+}
+
+.header-cont:hover {
+  color: #a339cc;
+  text-decoration: underline;
+}
+
+.contact-cont {
+  margin: auto 0;
+}
+
+.contact-cont h2 {
+  margin: 27px 20px;
+}
+
+.p-text-footer {
+  color: beige;
+}
+.profile-image p {
+  text-align: center;
+  color: beige;
+}
+
+.profile-image a {
+  color: beige;
+  text-decoration: none;
+}
+
+.profile-image a:hover {
+  color: #a339cc;
+  text-decoration: underline;
+}
+.profile-image h5 {
+  text-align: center;
+  color: beige;
+}
+
+.icon-skills-text {
+  color: beige;
+  font-size: 18px;
+  text-align: center;
+  transition: all 150ms ease-in-out;
+}
+
+.icon-skills-text:hover {
+  text-decoration: underline;
+}
+
+.icon-skills {
+  margin: 20px 27px;
+  padding: 0 10px;
+}
+
+.contact-icon {
+  width: 100%;
+  text-align: center;
+}
+.card-title {
+  font-weight: 600;
+  text-decoration: underline solid #4817f7;
+  font-size: 24px;
+}
+.card-text a {
+  color: #4817f7;
+  text-decoration: none;
+}
+.card-text a:hover {
+  color: #a339cc;
+  text-decoration: underline;
+}
+
+.dark body {
+  background: linear-gradient(
+    109.6deg,
+    rgba(0, 0, 0, 0.93) 11.2%,
+    rgb(63, 61, 61) 78.9%
+  );
+  color: beige;
+}
+
+.dark .card {
+  background-color: #4817f7;
+  color: beige;
+}
+
+.dark .card a {
+  color: black;
+}
+
+.dark .jumbotron {
+  background-color: #4817f7;
+  color: beige;
+}
+
+.header-text {
+  text-align: center;
+  font-weight: 700;
+  font-size: 55px;
+}
+.nav-link {
+  color: #fff;
+}
